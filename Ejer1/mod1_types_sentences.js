@@ -41,17 +41,27 @@ function tablaNumerosPares(inicio, fin)
 // muestra el saludo.
 Saludo();
 
+console.log("\n");
+
 // muestra el valor de PI con 6 decimales
 console.log("\nNúmero PI con 6 decimales: "+ Math.PI.toFixed(6) );
+
+console.log("\n");
 
 // muetra los números enteros de 0 a 22 en decimal, hexadecimal, octal y binario
 tablaNumeros(22);
 
+console.log("\n");
+
 // muetra los números  de 1 a 21, pero solo con los impares no incluidos en el intervalo de 10 a 20    
 tablaNumerosPares(1,21);
 
+console.log("\n");
+
 // Escribe la siguiente frase utilizando caracteres escapados para representar hola en chino
 console.log("\nHi in Chinese is written as: " + String("\u55e8\uff0c\u4f60\u597d\u5417"));
+
+console.log("\n");
 
 //Finalizar con la siguiente línea
 console.log("\nThe program has ﬁnished");
